@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER abhishek chitturi <abhishek.chitturi@gmail.com>
+MAINTAINER abhishek chitturi <biswajitsahu357@gmail.com>
 
 RUN apt-get update
 
