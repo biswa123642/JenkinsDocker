@@ -1,6 +1,6 @@
 pipeline {
 environment {
-registry = "abhi1434/jenkins_dockerimage"
+registry = "abhi1434"
 registryCredential = 'Dockerhub-cred'
 dockerImage = 'Test_image'
 }
