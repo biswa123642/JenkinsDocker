@@ -1,6 +1,6 @@
 pipeline {
 environment {
-registry = "abhi1434/myimages"
+registry = "sahu123/myimages"
 registryCredential = 'Dockerhub-cred'
 dockerImage = ''
 }
@@ -8,7 +8,7 @@ agent any
 stages {
 stage('Cloning our Git') {
 steps {
-git 'https://github.com/Abhishek1434/JenkinsDocker.git'
+git ''
 }
 }
 stage('Building our image') {
