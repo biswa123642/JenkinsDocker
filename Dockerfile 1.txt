@@ -1,7 +1,0 @@
-FROM ubuntu
-
-MAINTAINER Abhishek chitturi <abhishek.chitturi@gmail.com>
-
-RUN apt-get update
-
-CMD ["echo", "Hello"]
