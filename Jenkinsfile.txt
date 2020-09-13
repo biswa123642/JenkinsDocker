@@ -1,14 +1,14 @@
 pipeline {
 environment {
 registry = "abhishek/myimages"
-registryCredential = 'docker-build' (- - create docker hub credentials in Jenkins)
-dockerImage = ''
+registryCredential = 'docker-build' (- Dockerhub-cred)
+dockerImage = 'my_image'
 }
 agent any
 stages {
 stage('Cloning our Git') {
 steps {
-git 'https://github.com/your repository'
+git 'https://github.com/Abhishek1434/JenkinsDocker.git'
  }
 }
 stage('Building our image') {
